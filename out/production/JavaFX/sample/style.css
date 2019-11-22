@@ -1,0 +1,53 @@
+#display
+{
+   -fx-background-color: rgb(154, 37, 77);
+   -fx-text-fill:white;
+   -fx-font-size:20pt;
+}
+#button
+{
+    -fx-background-color: rgb(48, 48, 48);
+    -fx-text-fill: white;
+    -fx-font-size: 20pt;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-border-color: red;
+    -fx-background-radius: 20px;
+}
+#button:hover{
+    -fx-background-color:black;
+}
+#topPanel
+{
+    -fx-background-color: red;
+}
+#title{
+    -fx-text-fill: white;
+    -fx-font-size: 20pt;
+}
+#closeBtn{
+    -fx-text-fill: white;
+    -fx-font-size:20px;
+}
+#closeBtn:hover{
+    -fx-cursor: hand;
+}
+#minBtn{
+    -fx-text-fill: white;
+        -fx-font-size:20px;
+}
+#minBtn:hover{
+    -fx-cursor: hand;
+}
+#mainPanel{
+    -fx-background-color:blue;
+}
+#topLeft{
+    -fx-background-color:rgb(255, 255, 0);
+    -fx-text-fill: green;
+    -fx-font-size: 20px;
+    -fx-font-weight:bold;
+    -fx-font-style: italic;
+    -fx-background-radius: 10px 10px 10px 10px;
+}
