@@ -13,7 +13,7 @@ public class Main extends Application {
 
         Parent root = FXMLLoader.load(getClass().getResource("logInPage.fxml"));
         stage.initStyle(StageStyle.UNDECORATED);
-        stage.setScene(new Scene(root, 608, 690));
+        stage.setScene(new Scene(root, 100 , 100));
         stage.show();
     }
     public static void main(String[] args){
