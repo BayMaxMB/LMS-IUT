@@ -1,7 +1,13 @@
 @font-face{
     src: url("fonts//BalooBhai-Regular.ttf");
+    src: url("fonts//Lobster-Regular.ttf");
 }
-
+@font-face{
+    src: url("fonts//Righteous-Regular.ttf");
+}
+@font-face{
+    src: url("fonts//FrederickatheGreat-Regular.ttf");
+}
 .main{
     -fx-background-image: url("images/fon4.jpg");
 }
@@ -30,21 +36,19 @@
 }
 .log-in-title{
     -fx-font-size: 22pt;
-    -fx-text-fill: rgba(255, 255, 255, 0.7);
+    -fx-text-fill: rgb(47, 51, 51);
     -fx-letter-space: 5px;
     -fx-font-family: 'Baloo Bhai', cursive;
 }
 .pass-and-text-fields{
-    -fx-background-color: rgba(255, 255, 255, 0.4);
+    -fx-background-color: rgba(255, 255, 255, 0.7);
     -fx-background-radius:50px;
-    -fx-font-family: "Calistoga";
-}
-.pass-and-text-fields:active{
-    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-font-family: 'Arial';
 }
 .username-and-password{
     -fx-font-size:14pt;
-    -fx-text-fill: rgba(255, 255, 255, 0.8);
+    -fx-text-fill: rgb(155, 40, 147);
+    -fx-font-family: 'Fredericka the Great', cursive;
 }
 button{
     -fx-background-color: rgba(0, 255, 0, 0.4);
@@ -52,8 +56,8 @@ button{
     -fx-background-radius: 50px;
     -fx-border-radius: 50px;
     -fx-font-size: 13pt;
-    -fx-text-fill: rgba(255, 255, 255, 0.7);
-    -fx-font-family: "Arial";
+    -fx-text-fill: rgba(0, 0, 0, 0.7);
+    -fx-font-family: 'Righteous', cursive;
 }
 
 
@@ -87,6 +91,7 @@ button{
 
 #login-button:hover{
     -fx-background-color: rgba(0, 121, 33, 1);
+    -fx-text-fill: rgba(255, 255, 255, 0.8);
 }
 
 

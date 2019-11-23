@@ -34,10 +34,10 @@ public class Controller {
     private Button minBtn;
     public void mouseClicked(MouseEvent event){
         if(event.getSource() == textField){
-            textField.setStyle("-fx-background-color: white;");
+            textField.setStyle("-fx-background-color: rgb(255, 255, 119);");
         }
         else{
-            passwordField.setStyle("-fx-background-color: white;");
+            passwordField.setStyle("-fx-background-color: rgb(255, 255, 119);");
         }
     }
     public void closeButtonClickedHandler(MouseEvent event){
